@@ -194,6 +194,7 @@ static NSObject <FlutterPluginRegistrar> *FLUTTER_REGISTER;
     publishParam.enablePreparePublish = param.enablePreparePublish;
     publishParam.sliceSize = param.sliceSize;
     publishParam.coverPath = param.coverPath;
+    publishParam.fileName = param.fileName;
     publishParam.enableResume = param.enableResume;
     if (param.isDefaultResumeController) {
         publishParam.uploadResumController = [[UploadResumeDefaultController alloc] init];
@@ -227,6 +228,7 @@ static NSObject <FlutterPluginRegistrar> *FLUTTER_REGISTER;
     publishParam.enablePreparePublish = param.enablePreparePublish;
     publishParam.sliceSize = param.sliceSize;
     publishParam.coverPath = param.coverPath;
+    publishParam.fileName = param.fileName;
     publishParam.enableResume = param.enableResume;
     if (param.isDefaultResumeController) {
         publishParam.uploadResumController = [[UploadResumeDefaultController alloc] init];
